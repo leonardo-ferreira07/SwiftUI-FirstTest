@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7445BC822AF1156006A17E6 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7445BC722AF1156006A17E6 /* DataSource.swift */; };
 		A756C9FD22A9850600BC9C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A756C9FC22A9850600BC9C10 /* AppDelegate.swift */; };
 		A756C9FF22A9850600BC9C10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A756C9FE22A9850600BC9C10 /* SceneDelegate.swift */; };
 		A756CA0122A9850600BC9C10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A756CA0022A9850600BC9C10 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7445BC722AF1156006A17E6 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		A756C9F922A9850600BC9C10 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A756C9FC22A9850600BC9C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A756C9FE22A9850600BC9C10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				A756CA0022A9850600BC9C10 /* ContentView.swift */,
 				A756CA1022A9865900BC9C10 /* Article.swift */,
 				A756CA1222A98E3300BC9C10 /* ArticleDetailView.swift */,
+				A7445BC722AF1156006A17E6 /* DataSource.swift */,
 				A756CA0222A9850900BC9C10 /* Assets.xcassets */,
 				A756CA0722A9850900BC9C10 /* LaunchScreen.storyboard */,
 				A756CA0A22A9850900BC9C10 /* Info.plist */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7445BC822AF1156006A17E6 /* DataSource.swift in Sources */,
 				A756CA1122A9865900BC9C10 /* Article.swift in Sources */,
 				A756C9FD22A9850600BC9C10 /* AppDelegate.swift in Sources */,
 				A756C9FF22A9850600BC9C10 /* SceneDelegate.swift in Sources */,

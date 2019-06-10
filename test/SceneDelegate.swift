@@ -21,8 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Use a UIHostingController as window root view controller
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = UIHostingController(rootView: ContentView(articles: [Article(id: UUID.init(), title: "First One", preview: "Testing SwiftUI"),
-                                                                                         Article(id: UUID.init(), title: "Second One", preview: "Testing SwiftUI version 2")]))
+        window.rootViewController = UIHostingController(rootView: DataSource.contentViewData)
         self.window = window
         window.makeKeyAndVisible()
     }

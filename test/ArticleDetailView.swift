@@ -9,20 +9,23 @@
 import SwiftUI
 
 struct ArticleDetailView : View {
+    
     let article: Article
     
     var body: some View {
         
-        return VStack(alignment: .center, spacing: 25) {
-            HStack(alignment: .top) {
-                Text(article.title)
+        VStack(alignment: .leading, spacing: 15) {
+            Text(article.title)
                 .font(.callout)
-            }
-            HStack(alignment: .top) {
-                Text(article.preview)
+            Text(article.preview)
                 .font(.caption)
+            HStack() {
+                Spacer()
             }
+            
+            Spacer()
         }
+        .padding()
     }
     
 }
